@@ -31,8 +31,9 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.Cu
     public void onBindViewHolder(CustomViewHolder holder, int position) {
         Repos reposs = repositories.get(position);
         holder.repoName.setText(reposs.getName());
-        holder.repoStar.setInputType(reposs.getStars());
+        //holder.repoStar.setInputType(reposs.getStars());
         holder.repoDescribtion.setText(reposs.getDescription());
+        holder.repoUrl.setText(reposs.getUrl());
     }
 
     @Override
@@ -41,13 +42,13 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.Cu
     }
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
-        public TextView repoName, repoStar, repoDescribtion;
+        public TextView repoName, repoDescribtion, repoUrl;
 
         public CustomViewHolder(View view) {
             super(view);
             repoName = view.findViewById(R.id.repositoryName);
-            repoStar = view.findViewById(R.id.repoStars);
             repoDescribtion = view.findViewById(R.id.repoDescription);
+            repoUrl = view.findViewById(R.id.repoUrl);
         }
     }
 }

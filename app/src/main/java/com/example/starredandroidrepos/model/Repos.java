@@ -11,6 +11,18 @@ public class Repos {
     @Expose
     private String name;
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    @SerializedName("url")
+    @Expose
+    private String url;
+
     public String getDescription() {
         return description;
     }
