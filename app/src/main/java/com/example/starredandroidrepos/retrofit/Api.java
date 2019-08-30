@@ -1,6 +1,6 @@
 package com.example.starredandroidrepos.retrofit;
 
-import com.example.starredandroidrepos.model.Repos;
+import com.example.starredandroidrepos.model.RepositoryList;
 
 import java.util.List;
 
@@ -9,8 +9,10 @@ import retrofit2.http.GET;
 
 public interface Api {
 
-    String BASE_URL =  "https://api.github.com";
-
+    /*
+    Retrofit get annotation with our URL
+    And our method that will return us the List of EmployeeList
+    */
     @GET("/search/repositories?q=android+language:kotlin&sort=stars&order=desc")
-    Call<List<Repos>> getRepos();
+    Call<RepositoryList> getMyJSON();
 }
