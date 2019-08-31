@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Retrofit Example
 
 This is an Android app that retreives the most starred android repository on Github.
@@ -59,3 +60,11 @@ you want to make. I made a GET, which just fetches some information. You can mak
 (https://github.com/Pheonix73)
 
 
+=======
+# GithubAndroidRepos
+Android Application that consumes Github API
+
+
+
+![20190830-172622](https://user-images.githubusercontent.com/36895007/64036974-65f4b600-cb4c-11e9-9093-a55487774f8a.png)
+>>>>>>> origin/master
