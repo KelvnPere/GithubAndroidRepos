@@ -22,6 +22,11 @@ Anyone can clone this and use this project.
 ### Picture
 ![20190830-172622](https://user-images.githubusercontent.com/36895007/64065805-4d4ad580-cc0a-11e9-975c-e54fa75962cd.png)
 
+### Demo
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/36895007/64065910-9b140d80-cc0b-11e9-90c0-2d04202fc831.gif)
+
+
 
 ```
 {
