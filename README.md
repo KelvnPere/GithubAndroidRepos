@@ -44,11 +44,3 @@ you want to make. I made a GET, which just fetches some information. You can mak
 
  The beautiful thing about retrofit is that, it works in the background and it doesn't block your main thread, by callinng the enqueue method which returns 2 methods that needs 
  to be implemented.
-
-```
-
-
-```
-
-
-
