@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Retrofit Example
 
 This is an Android app that retreives the most starred android repository on Github.
@@ -14,7 +14,7 @@ Anyone can clone this and use this project.
 
 ### Tools used for the projects
 
-   [Retrofit] which is a type safe HTTP client for Android and Java built by square (http://square.github.io/retrofit/)
+ Retrofit which is a type safe HTTP client for Android and Java built by square (http://square.github.io/retrofit/)
 
 
 ### GitHub Api Response in JSON
@@ -52,19 +52,3 @@ you want to make. I made a GET, which just fetches some information. You can mak
 
 
 
-![Screenshot](screenshot/userlist.png)
-
-## Maker
-
-* **Kelvin Pere** - 
-(https://github.com/Pheonix73)
-
-
-=======
-# GithubAndroidRepos
-Android Application that consumes Github API
-
-
-
-![20190830-172622](https://user-images.githubusercontent.com/36895007/64036974-65f4b600-cb4c-11e9-9093-a55487774f8a.png)
->>>>>>> origin/master
